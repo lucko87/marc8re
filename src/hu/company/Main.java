@@ -26,6 +26,18 @@ public class Main {
         System.out.println(deciliter + " dl = " + (deciliter / 10) + " l");
         System.out.println(deciliter + " dl = " + (deciliter / 1000) + " hl");
 
+        /*3. feladat
+        Létrehoztam a pí konstanst, és a gömb sugának is megadtam az értékét, majd létrehoztam a volume változót,
+        amelyhez, és képlettel kiszámoltam a gömb térfogatát. Kiíratattam a térfogatát.*/
+
+
+        final double pi = Math.PI;
+        double radius = 2.08;
+
+        double volume =(4.0 / 3.0)  * Math.pow(radius,3.0) * pi;
+
+        System.out.println(volume);
+
 
 
     }
