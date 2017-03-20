@@ -48,6 +48,15 @@ public class Main {
         System.out.println(celsius + " celsius " + " = " + (celsius * 9 / 5 + 32));
         System.out.println(fahrenheit + " fahrenheit " + " = " + ((fahrenheit - 32)* 5 / 9));
 
+        /*5. feladat
+        Escape sequencesből a \n kapcsolóval elváltva irattam ki */
+
+
+        System.out.println("************ \n* Hello    * \n* World    * \n* in       * \n* a        * \n* frame    *\n************");
+
+
+
+
 
 
     }
