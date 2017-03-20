@@ -31,10 +31,9 @@ public class Main {
         amelyhez, és képlettel kiszámoltam a gömb térfogatát. Kiíratattam a térfogatát.*/
 
 
-        final double pi = Math.PI;
         double radius = 2.08;
 
-        double volume =(4.0 / 3.0)  * Math.pow(radius,3.0) * pi;
+        double volume =(4.0 / 3.0)  * Math.pow(radius,3.0) * Math.PI;
 
         System.out.println(volume);
 
