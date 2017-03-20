@@ -30,7 +30,6 @@ public class Main {
         Létrehoztam a pí konstanst, és a gömb sugának is megadtam az értékét, majd létrehoztam a volume változót,
         amelyhez, és képlettel kiszámoltam a gömb térfogatát. Kiíratattam a térfogatát.*/
 
-
         double radius = 2.08;
 
         double volume =(4.0 / 3.0)  * Math.pow(radius,3.0) * Math.PI;
