@@ -38,6 +38,16 @@ public class Main {
 
         System.out.println(volume);
 
+         /*4. feladat
+        Létrezotam két változót, majd a kiíratásál képlettel számoltatom az átváltást. */
+
+
+        double celsius = 10;
+        double fahrenheit = 70;
+
+        System.out.println(celsius + " celsius " + " = " + (celsius * 9 / 5 + 32));
+        System.out.println(fahrenheit + " fahrenheit " + " = " + ((fahrenheit - 32)* 5 / 9));
+
 
 
     }
