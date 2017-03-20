@@ -54,7 +54,13 @@ public class Main {
 
         System.out.println("************ \n* Hello    * \n* World    * \n* in       * \n* a        * \n* frame    *\n************");
 
+        /*6. feladat
+        Int függvénnyel adtam meg a kódját*/
 
+
+        char character = 'd';
+        int ascii = (int) character;
+        System.out.println("A \'" + character + "\' karakter ascii kódja: " + ascii);
 
 
 
